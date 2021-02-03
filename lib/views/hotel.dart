@@ -30,12 +30,16 @@ class Hotel extends StatelessWidget {
                   child: Container(child:Image(image:AssetImage('assets/rubavu1.jpeg'))),
                 ),
                    Padding(
-                  padding: const EdgeInsets.fromLTRB(30, 8, 8, 8),
+                  padding: const EdgeInsets.fromLTRB(0, 0, 110, 0),
                   child: Container(child:Text('Lake Kivu Serena Hotel')),
                 ),
                    Padding(
-                  padding: const EdgeInsets.fromLTRB(30, 8, 8, 8),
-                  child: Container(child:Text('Located: Rubavu')),
+                  padding: const EdgeInsets.fromLTRB(0, 0, 100, 0),
+                  child: Container(child:Text('Located: Rubavu District')),
+                ),
+                   Padding(
+                  padding: const EdgeInsets.fromLTRB(0, 0, 80, 0),
+                  child: Container(child:Text('Province: Western Province')),
                 )
                 
               ]

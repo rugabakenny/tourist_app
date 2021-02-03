@@ -7,7 +7,7 @@ class SplashView extends StatelessWidget {
   Widget build(BuildContext context) {
   
     return Scaffold(
-      backgroundColor:  Colors.orange[400],
+      backgroundColor:  Colors.green[400],
      body: Center(
        child: Container(
          child: Padding(
@@ -18,7 +18,7 @@ class SplashView extends StatelessWidget {
                Container(
                  height: 600,
                  width: 600,
-                 child: Image(image: AssetImage('assets/splash.jpeg'),
+                 child: Image(image: AssetImage('assets/splash1.jpeg'),
              ),
                )
 

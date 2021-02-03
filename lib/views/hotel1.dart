@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:paytransport/register.dart';
 // import 'package:flutter_swiper/flutter_swiper.dart';
+import 'package:carousel_slider/carousel_slider.dart';
 
 
 void main() {
@@ -17,9 +18,9 @@ class Hotel1 extends StatelessWidget {
     return Scaffold( 
       resizeToAvoidBottomInset: false, 
         appBar: AppBar(  
-          title: Text("King Kutta APPS"),  
+          title: Text("King Kutta APP"),  
           backgroundColor: Colors.blue,  
-        ),  
+        ),
        
         body: Container(
           child:Container(
@@ -30,18 +31,29 @@ class Hotel1 extends StatelessWidget {
                   child: Container(child:Image(image:AssetImage('assets/malliot.jpeg'))),
                 ),
                    Padding(
-                  padding: const EdgeInsets.fromLTRB(30, 8, 8, 8),
+                  padding: const EdgeInsets.fromLTRB(0, 0, 188, 0),
                   child: Container(child:Text('Malliot Hotel')),
                 ),
                    Padding(
-                  padding: const EdgeInsets.fromLTRB(30, 8, 8, 8),
+                  padding: const EdgeInsets.fromLTRB(0, 0, 150, 0),
                   child: Container(child:Text('Located: kigali city')),
+                ),
+                     Padding(
+                  padding: const EdgeInsets.fromLTRB(0, 0, 80, 0),
+                  child: Container(child:Text('Address: KN 3 Avenue, Kigali')),
+                ),
+                     Padding(
+                  padding: const EdgeInsets.fromLTRB(0, 0, 130, 0),
+                  child: Container(child:Text('Contact: 222 111 111')),
                 )
                 
               ]
             ),
+            
+            
           )
         )
+        
         
 
 

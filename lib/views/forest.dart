@@ -17,7 +17,7 @@ class Forest extends StatelessWidget {
     return Scaffold( 
       resizeToAvoidBottomInset: false, 
         appBar: AppBar(  
-          title: Text("King Kutta APPS"),  
+          title: Text("King Kutta APP"),  
           backgroundColor: Colors.blue,  
         ),  
        
@@ -30,15 +30,15 @@ class Forest extends StatelessWidget {
                   child: Container(child:Image(image:AssetImage('assets/forest4.jpeg'))),
                 ),
                    Padding(
-                  padding: const EdgeInsets.fromLTRB(30, 8, 8, 8),
+                  padding: const EdgeInsets.fromLTRB(0, 0, 170, 0),
                   child: Container(child:Text('Nyungwe Forest')),
                 ),
                      Padding(
-                  padding: const EdgeInsets.fromLTRB(30, 8, 8, 8),
+                  padding: const EdgeInsets.fromLTRB(0, 0, 80, 0),
                   child: Container(child:Text('Located: Nyamasheke District')),
                 ),
                      Padding(
-                  padding: const EdgeInsets.fromLTRB(30, 8, 8, 8),
+                  padding: const EdgeInsets.fromLTRB(0, 0, 140, 0),
                   child: Container(child:Text('Province: Southwest')),
                 )
                 
